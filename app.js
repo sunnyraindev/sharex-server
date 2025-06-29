@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('ultimate-express');
 const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
