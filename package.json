@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "multer": "^2.0.1",
+    "ultimate-express": "^2.0.8"
+  }
+}
