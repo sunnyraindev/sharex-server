@@ -31,6 +31,6 @@ app.post('/upload', upload.single('file'), (req, res) => {
 
 app.use('/uploads', express.static(uploadDir));
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on port ${PORT}`);
 });
